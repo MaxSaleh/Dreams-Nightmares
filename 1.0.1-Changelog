@@ -1,12 +1,18 @@
-#Dreams and Nightmares Mod Updates:
-- BetterQuesting, CraftPresence, lycanitesmobs, minecolonies.
+--- Dreams and Nightmares Mod Updates: ---
+> BetterQuesting, CraftPresence, lycanitesmobs, minecolonies.
 
-- Updated foamfix config.
+Dreams and Nightmares Mod Additions: ---
+> StandardExpansion.
 
-- Added a discord presence which will tell others that you are playing D&N when you are playing it.
+--- Dreams and Nightmares Mod Removals: ---
+> None.
 
-#Dreams and Nightmares Config Changelog:
-bloodmoon.cfg
+--- Dreams and Nightmares Other changes: ---
+> Updated foamfix config.
+> Added a discord presence which will tell others that you are playing D&N when you are playing it.
+
+--- Dreams and Nightmares Config Changelog: ---
+> bloodmoon.cfg
         # Whether monsters spawned by a bloodmoon should die at dawn
         B:Vanish=true
         Reason: Less entites scattered around after a majour spawn event
@@ -21,12 +27,12 @@ bloodmoon.cfg
         Before: Was 4
         Reason: Less entites that can choke up a low profile pc.
         
-Aether_legacy.cfg
+> Aether_legacy.cfg
         # Enables natural christmas decor
         B:christmas_time=true
         Reason: It's christmas time :)
         
-plants.cfg
+> plants.cfg
         # A (1/n) chance for plants to try to generate on a given occasion. Lower = More plants. [range: 1 ~ 2147483647, default: 1]
         I:Chance=3
         Before: Was 1
@@ -42,19 +48,19 @@ plants.cfg
         Before: Was 3
         Reason: Less generation increasing FPS
         
-storagedrawers.cfg
+> storagedrawers.cfg
         B:enableCreativeUpgrades=false
         Before: Was True
         Reason: Makes sure no one can recieve the creative items.
         
-betteranimalsplus.cfg
+> betteranimalsplus.cfg
         *multiple entities*
         # True to despawn this entity when no one is nearby [default: false]
         B:allowDespawning=true
         Before: Was False
         Reason: Build up of entities cause lag.
 
-dynamictrees.cfg
+> dynamictrees.cfg
     # If enabled then trees will fall over when harvested [default: true]
     B:enableFallingTrees=false
     Reason: Causes a bit of rendering that can build a lag spike.
