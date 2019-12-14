@@ -1,10 +1,11 @@
-Dreams and Nightmares Mod Updates:
+#Dreams and Nightmares Mod Updates:
 - BetterQuesting, CraftPresence, lycanitesmobs, minecolonies.
 
 - Updated foamfix config.
 
-Dreams and Nightmares Config Changelog:
+- Added a discord presence which will tell others that you are playing D&N when you are playing it.
 
+#Dreams and Nightmares Config Changelog:
 bloodmoon.cfg
         # Whether monsters spawned by a bloodmoon should die at dawn
         B:Vanish=true
